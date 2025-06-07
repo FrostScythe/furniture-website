@@ -3,7 +3,7 @@ import backgroundImage from '../assets/background1.jpeg';
 function HeroSection() {
     return (
         <div
-            className="relative flex items-center justify-center  rounded-2xl overflow-hidden bg-no-repeat bg-center bg-cover"
+            className="relative flex items-center justify-center overflow-hidden bg-no-repeat bg-center bg-cover rounded-md "
             style={{
                 backgroundImage: `url(${backgroundImage})`,
                 backgroundBlendMode: 'multiply',
