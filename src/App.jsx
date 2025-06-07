@@ -1,5 +1,5 @@
 // src/App.jsx
-import {  FeatureCategory,  HeroSection,  NewArrivalSection,  Nav,  Footer,} from "./components";
+import {  FeatureCategory,  HeroSection,  NewArrivalSection,  Nav,  Footer} from "./components";
 
 function App() {
   return (
