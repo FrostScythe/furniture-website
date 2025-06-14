@@ -1,4 +1,3 @@
-import React from 'react';
 import chairData from "../assets/chair/chairData.js";
 import {ProductGrid} from "./index.js"; // Make sure ProductGrid is a default export
 
