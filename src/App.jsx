@@ -1,17 +1,13 @@
 // src/App.jsx
-import {  FeatureCategory,  HeroSection,  NewArrivalSection,  Nav,  Footer, NewsLetter} from "./components";
+import {  Nav,  Footer} from "./components";
+import Home from "./pages/Home"
 
 function App() {
   return (
     <>
       <Nav />
-      <main className="flex flex-col gap-16">
-        <HeroSection />
-        <FeatureCategory />
-        <NewArrivalSection />
-        <NewsLetter />
-        <Footer />
-      </main>
+      <Home />
+      <Footer />
     </>
   );
 }
